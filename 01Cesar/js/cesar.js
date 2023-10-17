@@ -3,7 +3,7 @@ const text = document.getElementById("texto");
 const textoCifrado = document.getElementById("cifrado");
 
 
-function cifrado() {
+function cifrado(){
     //obtener text que se ingresa
  
     const textoIngresado = text.value;
@@ -28,8 +28,8 @@ function cifrado() {
         return mayus ? cifrado.toUpperCase() : cifrado;
 
     }).join('');
-
+    
     textoCifrado.addEventListener("keyup", cifrado);
     desplazamiento.addEventListener("change", cifrado);
-    cifrado();
+    
 }
