@@ -1,0 +1,41 @@
+.cards_cifrado{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 12vh;
+    height: 36vh;
+    
+}
+
+.card-link{
+    text-decoration: none;
+    color: green;
+    
+}
+
+.espacio{
+    width: 10%;
+}
+
+.negrita{
+    
+    font-style: italic;
+    font-size: 9vh;
+    font-weight: bold;
+    color: rgb(144, 0, 255);
+}
+
+#negrita{
+    
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(51, 0, 255);
+}
+.checked {
+    
+    color: orange;
+  }
+

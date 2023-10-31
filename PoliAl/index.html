@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/cifrados.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+
+      <div class="cards_cifrado">
+
+        <!--Cesar-->
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cifrado Cesar</h5>
+              <p class="card-text">Es un cifrado simetrico basado en la sustitucion de caracteres, su nombre se debe al emperador romano Julio Cesar</p>
+              <p class="negrita">Caracteristicas</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Alfabeto limitado</li>
+              <li class="list-group-item">número fijo de desplazamientos</li>
+              <li class="list-group-item">Sencillo de aplicar</li>
+              
+              <li class="list-group-item"> 
+              <p>Calificacion de seguridad</p>  
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </li>
+            </ul>
+            <div class="card-body">
+              <a href="https://chat.openai.com/share/c9405a12-b1fd-4f90-a4e1-517aaeb46b01" class="card-link">Historia</a>
+              <a href="https://chat.openai.com/share/cd5c3cff-dd2c-4ef2-a548-68b0107988da" class="card-link">Vulnerabilidades</a>
+            </div>
+          </div>
+
+          <div class="espacio"></div>
+
+          <!--Vigenerre-->
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cifrado viggenere </h5>
+              <p class="card-text">Realmente es una mejora al cifrado cesar, al desplazar un número diferente de posiciones cada letra y usar un polialfabeto, se propuso alrededor del ano 1500</p>
+              <p class="negrita" id="negrita">Caracteristicas</p>
+
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Utiliza una clave para cifrar</li>
+              <li class="list-group-item">Se basa en una tabla de caracteres</li>
+              <li class="list-group-item">Mas seguro</li>
+              <li class="list-group-item"> 
+                <p>Calificacion de seguridad</p>  
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+              </li>
+            </ul>
+            <div class="card-body">
+              <a href="https://chat.openai.com/share/f4ea34e3-4f20-425b-8735-83f022fc7d3a" class="card-link">Historia</a>
+              <a href="https://chat.openai.com/share/dc9c933e-b693-4d74-9207-68ef86b837fb" class="card-link">Vulnerabilidades</a>
+            </div>
+          </div>
+      </div>
+    
+      <div class="mensaje">
+        <form action="">
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </form>
+      </div>
+      
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
